@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ICFAI TRANSPORT</title>
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+
+
+<div class="shr">
+
+
+
+
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/ICFAI_University_Logo.jpg"  class="sr"alt="">
+<br>
+<div class="reddy">
+
+
+<h1>BUS TRANSPORT</h1>
+
+ENTER YOUR NAME :
+
+<input type="text" name="" value="" id="su">
+<br>
+
+
+  <br>
+   YOUR  ROUTE :
+
+  <select  id="ms" >
+
+    <option value=""></option>
+    <option value="KOMPALLY">KOMPALLY</option>
+    <option value="PATANCHERU">PATANCHERU</option>
+    <option value="BOLLARAM">BOLLARAM</option>
+    <option value="DILSUKHNAGAR">DILSUKHNAGAR</option>
+    <option value="PUNJAGUTTA">PUNJAGUTTA</option>
+    <option value="BACHUPALLY">BACHUPALLY</option>
+
+  </select>
+
+
+</div>
+
+<br>
+
+
+
+  <button type="button" class="bn" name="button" onclick="cond()">Check Out</button>
+
+  <script type="text/javascript">
+
+function cond(){
+var a = document.querySelector('#ms').value;
+var b = document.getElementById('su').value;
+  if(a=="KOMPALLY"){
+    var text="Hey "+b +" !\n Your Bus Driver: Sadhan \n Bus Number :101 \n Your Bus Starts in KOMPALLY at 7:00 AM  ";
+    alert(text) ;
+
+}
+  else if(a=="PATANCHERU"){
+      var texts="Hey "+b +" !\n Your Bus Driver: Madhu \n Bus Number :102 \n Your Bus Starts in PATANCHERU at 7:15 AM  ";
+    alert(texts);
+}
+  else if(a=="BOLLARAM"){
+    var tex="Hey "+b +" !\n Your Bus Driver: Deekshit \n Bus Number :103 \n Your Bus Starts in BOLLARAM at 7:20 AM  ";
+  alert(tex);
+
+}
+  else if(a=="DILSUKHNAGAR"){
+    var te="Hey "+b +" !\n Your Bus Driver: PremSagar \n Bus Number :104 \n Your Bus Starts in DILSUKHNAGAR at 7:30 AM  ";
+  alert(te);
+}
+
+else if(a=="PUNJAGUTTA"){
+  var t="Hey "+b +" !\n Your Bus Driver: Siddharth \n Bus Number :105 \n Your Bus Starts in PUNJAGUTTA at 7:20 AM  ";
+alert(t);
+}
+
+else if(a=="BACHUPALLY"){
+  var s="Hey "+b +" !\n Your Bus Driver: Praneeth \n Bus Number :106 \n Your Bus Starts in BACHUPALLY  at 7:35 AM  ";
+alert(s);
+}
+  else {
+  alert("Please Select your Boarding point from above dropdown menu !");
+}
+
+
+
+}
+
+    </script>
+
+    <br>
+    <br>
+
+
+      </div>
+<br>
+<br>
+<br>
+<p ><h5 class="shre">For any Queries contact</h5></p>
+
+<a href="mailto:eshreyas555@gamil.com"><img class="loke"src="mail.png" alt=""></a>
+
+
+  </body>
+</html>
